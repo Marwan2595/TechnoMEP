@@ -1,0 +1,247 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+main {
+  width: 100%;
+}
+.section-title {
+  font-size: 50px;
+  color: #006e9e;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 65px;
+}
+nav {
+    width: 100%;
+   height: 80px ;
+    background-color: white;
+    padding-top: 16px;
+    border-bottom : solid 1px gray;
+}
+
+.nav-link:hover{
+  color : #006e9e !important;
+}
+/* .cover{
+  background-image: url('../images/cover.jpg');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10%;
+}
+.cover .title {
+  font-size: 150px;
+  color: teal;
+  font-family: monospace ;
+  font-weight: bold;
+} */
+.cover {
+    position: relative;
+    height: 900px;
+    width: 100%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.cover::before {
+      content: "";
+      background-image: url('../images/cover4.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+.cover .main-header{
+  position: relative;
+  text-align: center;
+}
+.cover .title {
+  font-size: 150px;
+  color: #FFFFFF;
+  font-family: monospace ;
+  font-weight: bolder;
+}
+.cover .sub-title {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: monospace ;
+}
+.services {
+  padding: 4%;
+}
+.services .card {
+  height: 400px;
+}
+.services .card .card-title{
+  color: #006e9e;
+}
+.hd {
+    font-size: 25px;
+    font-weight: 550
+}
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px grey;
+}
+
+.img {
+    margin-bottom: 1px;
+
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.aboutus-section {
+    padding: 120px 0;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #006e9e;
+}
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 22px;
+    line-height: 22px;
+    /* margin: 0 0 35px; */
+}
+
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.projects {
+  height: 250;
+  margin-bottom: 150px;
+}
+.carousel-item {
+  height: 750px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item img {
+  height: 750px;
+  width: 100%;
+}
+.carousel-item h5 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.carousel-item p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.contact-us {
+  width: 100%;
+    margin-top:  70px;
+    text-align: center;
+    padding: 3%;
+    background-color: #FFFFFF;
+}
+
+.contact .social  a {
+    text-align: center;
+    padding: 2%;
+    margin-left: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+.contact .social  a i {
+    color:#006e9e;
+
+}
+.contact .tel {
+    text-align: left;
+
+}
+.contact .tel ul {
+    margin-left: 30px;
+}
+.contact .tel ul li {
+    margin-bottom: 30px;
+    color: #555;
+}
+.contact .tel ul li i {
+    color: #006e9e;
+    margin-right:15px ;
+}
+.contact-us .form .form-group input {
+    width: 445px;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+.contact-us .form .form-group-1 input {
+    width: 445px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.contact-us .form  button {
+    height: 35px;
+    padding: 10px;
+    background: #006e9e;
+    border:none;
+    color: white;
+    margin-left: 50px;
+}
